@@ -8,7 +8,7 @@ public class VagonMovement : MonoBehaviour
     public float offset = -0.035f;
   
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         if (locomotive == null)
             return;

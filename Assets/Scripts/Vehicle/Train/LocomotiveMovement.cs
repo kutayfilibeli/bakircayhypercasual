@@ -23,7 +23,7 @@ public class LocomotiveMovement : MonoBehaviour
         }
     }
 
-    void Update()
+    void LateUpdate()
     {
         if (pathCreator != null)
         {

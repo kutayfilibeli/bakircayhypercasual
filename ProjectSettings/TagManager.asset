@@ -8,6 +8,8 @@ TagManager:
   - Ball
   - Collectable
   - Unlockable
+  - Train
+  - Station
   layers:
   - Default
   - TransparentFX

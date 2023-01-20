@@ -28,29 +28,7 @@ public class Stashable : MonoBehaviour
             transform.localRotation = Quaternion.identity;
             onCompleteCollect?.Invoke();
         });
-        //StartCoroutine(CollectCoroutine(stashParent, yLocalPosition, onCompleteCollect));
     }
-    //private IEnumerator CollectCoroutine(Transform stashParent, float yLocalPosition, Action onCompleteCollect)
-    //{   
-    //    yield return null; 
-    //    //float currentTime = 0;
-    //    //float completeTime = 1f;
-
-    //    //Vector3 startPos = transform.position;
-
-    //    //while (currentTime < completeTime)
-    //    //{
-    //    //    currentTime += Time.deltaTime;
-
-    //    //    var targetPos = stashParent.position + Vector3.up * yLocalPosition;
-
-    //    //    targetPos += Vector3.Lerp(Vector3.up * 7f, Vector3.zero, currentTime / completeTime);
-
-    //    //    transform.position = Vector3.Lerp(startPos, targetPos, currentTime / completeTime);
-
-    //    //    yield return null;
-    //    //}  
-    //}
 
     public void PayStashable(Transform target, Action onCompletePay)
     {
